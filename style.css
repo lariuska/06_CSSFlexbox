@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    margin: 50px auto;
+    width: 400px;
+    height: 100%;
+    background: white;
+}
+
+.person {
+    display: flex;
+    width: 90%;
+    border-bottom: 1px solid grey;
+}
+
+img {
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+}
+
+.info {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(75, 72, 72);
+    align-self: center;
+    padding-left: 10px;
+}
+
+p {
+    color: rgb(128, 118, 118);
+    margin-top: 5px;
+}
